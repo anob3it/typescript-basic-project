@@ -1,0 +1,19 @@
+{
+  "name": "ts-test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "dist/main.js",
+  "scripts": {
+    "compile": "tsc  --listEmittedFiles --pretty",
+    "compile:incremental": "tsc -w --listEmittedFiles --pretty",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.0-alpha.1",
+    "typescript": "^2.6.2"
+  }
+}
